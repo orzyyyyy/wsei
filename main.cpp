@@ -9,7 +9,7 @@ int main() {
     double c;
     double d1;
     double d;
-    double xw;
+    double wierzcholekX;
     double yw;
     double x1;
     double x2;
@@ -29,7 +29,7 @@ int main() {
         cout<<"d1: "<<d1<<endl;
 
         if(d>=0){
-            xw = (-b)/(2*a);
+            wierzcholekX = (-b)/(2*a);
             yw = -d1/(4*a);
 
             x1 = (-b - d)/(2*a);
@@ -38,7 +38,7 @@ int main() {
             cout<<"Wykonane obliczenia: "<<endl;
 
             cout<<"d1: "<<d1<<endl;
-            cout<<"Xw: "<<xw<<endl;
+            cout<<"wierzcholekX: "<<wierzcholekX<<endl;
             cout<<"Yw: "<<yw<<endl;
             cout<<"X1: "<<x1<<endl;
             cout<<"X2: "<<x2<<endl;

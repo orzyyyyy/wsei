@@ -7,7 +7,7 @@ int main() {
     double a;
     double b;
     double c;
-    double delta;
+    double d1;
     double d;
     double xw;
     double yw;
@@ -24,20 +24,20 @@ int main() {
 
     if(a!=0){
 
-        delta = b * b - ( 4 * a * c);
-        d = sqrt(delta);
-        cout<<"DELTA: "<<delta<<endl;
+        d1 = b * b - ( 4 * a * c);
+        d = sqrt(d1);
+        cout<<"d1: "<<d1<<endl;
 
         if(d>=0){
             xw = (-b)/(2*a);
-            yw = -delta/(4*a);
+            yw = -d1/(4*a);
 
             x1 = (-b - d)/(2*a);
             x2 = (-b + d)/(2*a);
 
             cout<<"Wykonane obliczenia: "<<endl;
 
-            cout<<"DELTA: "<<delta<<endl;
+            cout<<"d1: "<<d1<<endl;
             cout<<"Xw: "<<xw<<endl;
             cout<<"Yw: "<<yw<<endl;
             cout<<"X1: "<<x1<<endl;
